@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -62,6 +63,19 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-quantum': 'var(--gradient-quantum)',
+				'gradient-cyber': 'var(--gradient-cyber)',
+				'gradient-particle': 'var(--gradient-particle)'
+			},
+			boxShadow: {
+				'glow': 'var(--glow-quantum)',
+				'glow-accent': 'var(--glow-accent)',
+				'glow-error': 'var(--glow-error)'
+			},
+			transitionProperty: {
+				'quantum': 'var(--transition-quantum)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
